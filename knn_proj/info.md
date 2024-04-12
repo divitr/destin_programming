@@ -21,5 +21,5 @@
  : what we are asking the model to predict; the output of the model
 ## Your 
 
-[^1] features are the information that the model is given; the inputs to the model
-[^2] labels are twhat we are asking the model to predict; the output of the model
+[^1]: features are the information that the model is given; the inputs to the model
+[^2]: labels are twhat we are asking the model to predict; the output of the model
