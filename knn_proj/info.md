@@ -1,5 +1,5 @@
 # Learning Goals
-This project achieves two goals:
+## This project achieves two goals:
  - A gentle introduction to supervised learning techniques
  - An excercise in basic python
     - Abstraction
@@ -7,7 +7,7 @@ This project achieves two goals:
     - Data representation
     - Mathematical operations
       
- By the end of this project, you should have a robust understanding of:
+ ## By the end of this project, you should have a robust understanding of:
    - Supervised learning
    - K-Nearest-Neighbors (KNN) algorithm
    - The implementation of the KNN algorithm
