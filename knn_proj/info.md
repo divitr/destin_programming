@@ -36,6 +36,8 @@
 
  This is a complex and large project, so to help you out, I've provided some basic starter code. Note that this starter code contains a few different classes, something we covered briefly a few weeks ago. If you need a refresher on classes and Object-Oriented Programming I highly recommend checking out [this article](https://www.geeksforgeeks.org/python-classes-and-objects/) by GeeksForGeeks!
 
+**A Final Note: This is a project for which many resources will be available online. While you will find code online and may be tempted to use LLM tools such as ChatGPT to help write your code, I *strongly* urge you not to copy code. I will be helping you throughout the project, so direct any questions to me. That being said, online resources can be helpful and I encourage you to utilize these resources to *understand* the project, but under no curcumstances should you be copying code from an online resource.**
+
 [^1]: Features are the information that the model is given; the inputs to the model.
 [^2]: Labels are twhat we are asking the model to predict; the output of the model. An important clarification: A label as we usually think of it is categorical (e.g. cat or dog), but in the context of machine learning it may also be a continuous value (e.g. 1.234 or 0.987)!
 [^3]: This is just a fancy way of saying when we give it an input!
