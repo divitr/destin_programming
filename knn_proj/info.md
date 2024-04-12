@@ -29,10 +29,10 @@
 ### Choosing a Value for K
  One of the key hyperparameters in the KNN algorithm is the value of K, which determines the number of neighbors to consider when making predictions. Choosing the right value of K is crucial, as it can significantly impact the performance of the algorithm.
  
-### Evaluating the Performance of Our Algorithm
+## Evaluating the Performance of Our Algorithm
  To evaluate the performance of the KNN algorithm, various metrics can be used depending on the nature of the problem. For classification tasks, metrics such as accuracy, precision, recall, and F1-score are commonly used, while for regression tasks, metrics such as mean squared error (MSE) or R-squared are used. We'll get into this more once we have finished implementing the base algorithm and are choosing a value for K.
  
-### More Resources
+## More Resources
  KNN is very diferent from the type of programming you may be used to. If you find yourself unable to digest the material above, looking for visuals, or just wanting to learn more about the KNN algorithm, I recommend looking at some of these links (I've arranged them in order of digestibility):
   - [K-Nearest Neighbor - Medium](https://medium.com/swlh/k-nearest-neighbor-ca2593d7a3c4)
   - [K-Nearest Neighbor(KNN) Algorithm - GeeksForGeeks](https://www.geeksforgeeks.org/k-nearest-neighbours/#)
