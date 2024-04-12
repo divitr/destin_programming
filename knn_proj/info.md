@@ -43,7 +43,7 @@
   - Implementing the KNN algorithm
   - Evaluating performance of the algorithm, and using that to choose an optimal value for K.
 
- This is a complex and large project, so to help you out, I've provided some basic starter code. Note that this starter code contains a few different classes, something we covered briefly a few weeks ago. If you need a refresher on classes and Object-Oriented Programming I highly recommend checking out [this article](https://www.geeksforgeeks.org/python-classes-and-objects/) by GeeksForGeeks!
+ This is a complex and large project, so to help you out, I've provided some basic starter code. Note that this starter code contains a few different classes, something we covered briefly a few weeks ago. If you need a refresher on classes and Object-Oriented Programming, I highly recommend checking out [this article](https://www.geeksforgeeks.org/python-classes-and-objects/) by GeeksForGeeks!
 
 **A Final Note:**
 This is a project for which many resources will be available online. While you will find code online and may be tempted to use LLM tools such as ChatGPT to help write your code, I *strongly* urge you not to copy code. I will be helping you throughout the project, so direct any questions to me.
