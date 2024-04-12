@@ -16,9 +16,10 @@
       - Handling categorical data using one-hot encoding
 # Project Overview
 ## Supervised Learning
- Before understanding what the KNN algorithm is or does, we should first learn about supervised learning. Supervised learning is a subset of machine learning in which the model is provided with features and a label for each data point.
- features
- : the information that the model is given; the inputs to the model
+ Before understanding what the KNN algorithm is or does, we should first learn about supervised learning. Supervised learning is a subset of machine learning in which the model is provided with features[^1] and a label[^2] for each data point.
  label
  : what we are asking the model to predict; the output of the model
 ## Your 
+
+[^1] features are the information that the model is given; the inputs to the model
+[^2] labels are twhat we are asking the model to predict; the output of the model
