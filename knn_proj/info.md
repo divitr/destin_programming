@@ -29,7 +29,6 @@
   - [K-Nearest Neighbor - Medium](https://medium.com/swlh/k-nearest-neighbor-ca2593d7a3c4)
   - [K-Nearest Neighbor(KNN) Algorithm](https://www.geeksforgeeks.org/k-nearest-neighbours/#)
   - [What is the KNN algorithm? - IBM](https://www.ibm.com/topics/knn#:~:text=The%20k%2Dnearest%20neighbors%20(KNN)%20algorithm%20is%20a%20non,used%20in%20machine%20learning%20today.)
-  - 
 ## Your Task
  Your task for this project consists of two parts:
   - Implementing the KNN algorithm
