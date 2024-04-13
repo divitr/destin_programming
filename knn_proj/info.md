@@ -38,7 +38,7 @@
   - [K-Nearest Neighbor(KNN) Algorithm - GeeksForGeeks](https://www.geeksforgeeks.org/k-nearest-neighbours/#)
   - [What is the KNN algorithm? - IBM](https://www.ibm.com/topics/knn#:~:text=The%20k%2Dnearest%20neighbors%20(KNN)%20algorithm%20is%20a%20non,used%20in%20machine%20learning%20today.)
     
-## Your Task
+# Your Task
  Your task for this project consists of two parts:
   - Implementing the KNN algorithm
   - Evaluating performance of the algorithm, and using that to choose an optimal value for K.
