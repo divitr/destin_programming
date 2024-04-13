@@ -1,3 +1,7 @@
 Destin's programming work with Divit.
 
-Started on 04/09/2024.
+**Homework** (ordered by recency)
+
+| Date Assigned | Date Due | Assignment Description |
+|---------------|----------|------------------------|
+| 04/09         | 04/16    | git setup              |
