@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 from DataPoint import DataPoint
 from KNN import KNN
-from metrics import accuracy, plot_confusion_matrix
+# from metrics import accuracy, plot_confusion_matrix
 
 random.seed(42)
 
@@ -65,10 +65,10 @@ test_labels = [data_point.label for data_point in test_data]
 visualize_data(training_data, num_classes)
 
 # Defining our K value and initializing a KNN model with the K value and our training data.
-K = #TODO: pick a K value!
-knn_classifier = KNN(K, data = training_data)
+# K = #TODO: pick a K value!
+# knn_classifier = KNN(K, data = training_data)
 
-# Evaluating our model!
-predictions = knn_classifier.predict(test_data)
-print(f"Accuracy: {accuracy(predictions, test_labels)}")
-plot_confusion_matrix(test_labels, predictions, [1, 2, 3])
+# # Evaluating our model!
+# predictions = knn_classifier.predict(test_data)
+# print(f"Accuracy: {accuracy(predictions, test_labels)}")
+# plot_confusion_matrix(test_labels, predictions, [1, 2, 3])

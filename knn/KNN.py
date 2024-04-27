@@ -22,8 +22,16 @@ class KNN:
         :param feature_set_2: A list of numerical values
         :return:
         """
-        #TODO: Implement the Euclidian (L2) Norm.
-
+        x1 = feature_set_1[0]
+        x2 = feature_set_2[0]
+        y1 = feature_set_1[1]
+        y2 = feature_set_2[1]
+        deltax = x1 - x2
+        deltay = y1 - y2
+        deltaxsquared = deltax**2
+        deltaysquared = deltay**2
+        distsquared = deltaxsquared + deltaysquared
+        return distsquared**.5
     def distance_to_training_data_points(self, feature_set: list):
         """
         This function returns a parallel list to self.training_data containing the distance
