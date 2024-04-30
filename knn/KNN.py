@@ -32,6 +32,7 @@ class KNN:
         deltaysquared = deltay**2
         distsquared = deltaxsquared + deltaysquared
         return distsquared**.5
+    
     def distance_to_training_data_points(self, feature_set: list):
         """
         This function returns a parallel list to self.training_data containing the distance

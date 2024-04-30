@@ -10,8 +10,11 @@ def accuracy(truth: list, pred: list) -> float:
     :param pred: A parallel list to truth containing the model's predictions
     :return: The computed accuracy of the model
     """
-    # TODO: Implement this function. Recall the definition of accuracy as correct predictions / total predictions! This function should return a number between 0 and 1.
-
+    num_correct = 0
+    for i in range(len(pred)):
+        if pred[i] == truth[i]:
+            num_correct = num_correct + 1
+    return num_correct / len(pred)
 # def plot_confusion_matrix(truth: list, pred: list, classes: list):
 #     cm = confusion_matrix(truth, pred)
 #     plt.figure(figsize=(8, 6))
