@@ -15,6 +15,7 @@ def accuracy(truth: list, pred: list) -> float:
         if pred[i] == truth[i]:
             num_correct = num_correct + 1
     return num_correct / len(pred)
+
 # def plot_confusion_matrix(truth: list, pred: list, classes: list):
 #     cm = confusion_matrix(truth, pred)
 #     plt.figure(figsize=(8, 6))
