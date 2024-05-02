@@ -40,8 +40,12 @@ class KNN:
         :param feature_set: A list of numerical values representing the feature set
         :return: A list of the distances of each DataPoint
         """
-        
-
+        list = []
+        for i in self.training_data:
+            var = self.distance(i.feature_set, feature_set)
+            list.append(var)
+        return list
+    
     def sorted_data_points(self, feature_set: list):
         """
         This function returns a list with the same elements as self.training_data, but sorted by their distance to the given feature_set.
