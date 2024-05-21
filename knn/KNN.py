@@ -52,9 +52,13 @@ class KNN:
         :param feature_set: A list of numerical values representing the feature set
         :return: A list of DataPoints, sorted by distance to feature_set
         """
-        #TODO: Implement this function. Consider using the distance_to_training_data_points()
-        # helper function.
-
+        distances = self.distance_to_training_data_points(feature_set)
+        zipped = self.training_data(zip(self.training_data, distances))
+        print(zipped)
+        zipped.sort(key=lambda x: x[1])
+        print(zipped)
+        zipped = [zipped[i][0]for i in range(len(zipped))]
+        print(zipped)
     def majority_label(self, data_points_list: list[DataPoint]):
         """
         This function returns the majority label of the provided data points.
