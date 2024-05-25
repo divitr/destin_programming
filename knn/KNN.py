@@ -63,8 +63,14 @@ class KNN:
         :param data_points_list: A list of DataPoints whose majority label is to be determined
         :return: The majority label of data_points_list
         """
-        #TODO: Implement this function. Consider using a dictionary to store label counts.
-
+        
+        label_frequency = {}
+        for datapoint in data_points_list:
+            if datapoint.label in label_frequency:
+                label_frequency[datapoint.label] += 1
+            else:
+                label_frequency[datapoint.label] = 1
+        return max(label_frequency, key=lambda key: label_frequency[key])
     def predict(self, feature_set: list):
         """
         This function returns the predicted label for a given feature set.
