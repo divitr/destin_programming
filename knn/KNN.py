@@ -78,6 +78,6 @@ class KNN:
         :return: The predicted label for the feature set
         """
         sorted_training_data = self.sorted_data_points(feature_set)
-        #TODO: Save the first K data points in sorted_training_data to a new list.
-        #TODO: Determine and return the majority label of the first K data points. Consider
-        # using the majority_label() helper function.
+        first_k = sorted_training_data[:self.k]
+        predicted_label = self.majority_label(first_k)
+        return predicted_label
