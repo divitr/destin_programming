@@ -65,8 +65,10 @@ test_labels = [data_point.label for data_point in test_data]
 visualize_data(training_data, num_classes)
 
 # Defining our K value and initializing a KNN model with the K value and our training data.
-# K = #TODO: pick a K value!
-# knn_classifier = KNN(K, data = training_data)
+K = 3 #TODO: pick a K value!
+knn_classifier = KNN(K, data = training_data)
+
+print(knn_classifier.predict(DataPoint([1.25, 1.2], None)))
 
 # # Evaluating our model!
 # predictions = knn_classifier.predict(test_data)

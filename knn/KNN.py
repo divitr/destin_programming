@@ -71,7 +71,7 @@ class KNN:
             else:
                 label_frequency[datapoint.label] = 1
         return max(label_frequency, key=lambda key: label_frequency[key])
-    def predict(self, feature_set: list):
+    def predict_helper(self, feature_set: list):
         """
         This function returns the predicted label for a given feature set.
         :param feature_set: A list of numerical values representing the feature set
@@ -81,3 +81,6 @@ class KNN:
         first_k = sorted_training_data[:self.k]
         predicted_label = self.majority_label(first_k)
         return predicted_label
+
+    def predict(self, data_point: DataPoint):
+        return self.predict_helper(data_point.feature_set)
