@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 from DataPoint import DataPoint
 from KNN import KNN
-# from metrics import accuracy, plot_confusion_matrix
+from metrics import accuracy, plot_confusion_matrix
 
 random.seed(42)
 
@@ -51,9 +51,9 @@ def visualize_data(data: list[DataPoint], num_classes: int):
     plt.show()
 
 # You can play around with these numbers if you like, but I *highly* recommend leaving them as they are until you finish the rest of the project!
-num_points = 100
-means = [[0, 1], [1, 0], [1, 1]]
-stds = [[0.15, 0.15], [0.15, 0.15], [0.15, 0.15]]
+num_points = 1000
+means = [[.3, .6], [.6, .7], [.05, .001]]
+stds = [[0.15, 0.15], [0.15, 0.05], [0.15, 0.15]]
 num_classes = 3
 
 # Generating our training and test data
@@ -65,12 +65,12 @@ test_labels = [data_point.label for data_point in test_data]
 visualize_data(training_data, num_classes)
 
 # Defining our K value and initializing a KNN model with the K value and our training data.
-K = 3 #TODO: pick a K value!
+K = 100 #TODO: pick a K value!
 knn_classifier = KNN(K, data = training_data)
 
-print(knn_classifier.predict(DataPoint([1.25, 1.2], None)))
+# print(knn_classifier.predict(DataPoint([1.25, 1.2], None)))
 
-# # Evaluating our model!
-# predictions = knn_classifier.predict(test_data)
-# print(f"Accuracy: {accuracy(predictions, test_labels)}")
-# plot_confusion_matrix(test_labels, predictions, [1, 2, 3])
+# Evaluating our model!
+predictions = [knn_classifier.predict(data_point) for data_point in test_data]
+print(f"Accuracy: {accuracy(predictions, test_labels)}")
+plot_confusion_matrix(test_labels, predictions, [1, 2, 3])
