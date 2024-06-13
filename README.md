@@ -4,6 +4,7 @@ Destin's programming work with Divit.
 
 | Date Assigned | Date Due | Assignment Description |
 |---------------|----------|------------------------|
+| 06/13         | 06/17    | read about k-means clustering in the links I sent you|
 | 05/31         | N/A      | look into [huggingface.co](https://www.huggingface.co)|
 | 05/28         | 05/31    | read about confusion matrices and accuracy|
 | 05/24         | 05/28    | complete predict() function in KNN.py|
