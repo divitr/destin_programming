@@ -1,5 +1,10 @@
 rows, cols = 3, 3
-Board = [["-"]*cols]*rows
+def threeinarow(board):
+    for row in range(rows):
+        if Board[row][0] == Board[row][1] == Board[row][2]:
+            return True
+    return False
+Board = [["-", "-", "-"], ["-", "-", "-"], ["-", "-", "-"]]
 while True:
     symbol = input("symbol")
     row = int(input("row?"))
