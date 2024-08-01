@@ -25,5 +25,7 @@ while True:
     Board[row-1][Col-1] = symbol
     print(Board)
     if threeinarow(Board) or threeinacolumn(Board) or threeinadiagonal(Board) == True:
-        print("gg")
         break
+        
+
+1
